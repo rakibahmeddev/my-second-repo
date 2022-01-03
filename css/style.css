@@ -1,0 +1,86 @@
+h2,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #fb9a39;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: "montserrat", sans-serif; */
+}
+
+.wrapper {
+    max-width: 400px;
+    width: 100%;
+    background-color: #fbb04d;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.container {
+    width: 350px;
+    padding: 25px;
+    background: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.container .title {
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #332902;
+}
+
+.container .input-field {
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.container .input-field input,
+.container .input-field textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #e9e9e9;
+    padding: 5px;
+}
+
+.container .send input {
+    width: 100%;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    background-color: #fb9a39;
+    padding: 8px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: #332902;
+}
